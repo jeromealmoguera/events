@@ -1,159 +1,284 @@
-body{
-    background-color: #0a0a0a;
-    color:  white;
+body {
+  background-color: #0a0a0a;
+  color: white;
 }
 
-.hero{
-    min-height:100%;
-    background:linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(./assets/HOF.jpg);
-    background-size:cover;
+.hero {
+  min-height: 100%;
+  background: linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(./assets/HOF.jpg);
+  background-size: cover;
 }
 
-.hero-body{
-    padding-top: 200px !important;
-    height: 90vh;
+.hero-body {
+  padding-top: 200px !important;
+  height: 90vh;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
-.navbar{
-    background-color: #000000 !important;
+.navbar {
+  background-color: #000000 !important;
 }
 
-.navbar-menu .navbar-item:hover{
-    background-color: transparent !important;
-    color: rgb(62, 199, 253) !important;
+.navbar-menu .navbar-item:hover {
+  background-color: transparent !important;
+  color: rgb(62, 199, 253) !important;
 }
 
-.navi{
-    font-size: small;
+.navi {
+  font-size: small;
 }
 
-.is-justify{
-    text-align: justify;
+.is-justify {
+  text-align: justify;
 }
 
-.more{
-    color: rgb(224, 224, 224);
-    padding: 7px;
-    border: 1px solid white;
+.more {
+  color: rgb(224, 224, 224);
+  padding: 7px;
+  border: 1px solid white;
 }
 
-.more:hover{
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    padding: 7px;
+.more:hover {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  padding: 7px;
 }
 
-.content{
-    font-size: 18px;
+.content {
+  font-size: 18px;
 }
 
-.events{
-    border: 2px solid white;
+.events {
+  border: 2px solid white;
 }
 
-.cards{
-    margin-top: 60px;
-    margin-bottom: 50px;
-    display: flex;
+.cards {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
 }
 
-.more-2{
-    color: black;
-    padding: 7px;
-    border: 2px solid black;
+.more-2 {
+  color: black;
+  padding: 7px;
+  border: 2px solid black;
 }
 
-.more-2:hover{
-    color: black;
-    background-color: rgb(201, 201, 201);
-    font-weight: bold;
-    padding: 7px;
+.more-2:hover {
+  color: black;
+  background-color: rgb(201, 201, 201);
+  font-weight: bold;
+  padding: 7px;
 }
 
 /* JEROME ALMOGUERA */
 
-.content{
-    margin-right: 50px;
-    margin-left: 50px;
+/* EVENTS */
+
+.content {
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
-body#event{
-    background-color:#f5f5f5;
+body#event {
+  background-color: #f5f5f5;
 }
 
-.una{
-    text-align: center;
+.una {
+  text-align: center;
 }
 
-.taon{
-    text-align: center;  
+.taon {
+  text-align: center;
 }
 
-.tao{
-    display: flex;
-    justify-content: center;
+.tao {
+  display: flex;
+  justify-content: center;
   align-items: center;
- 
 }
 
 .title {
-    margin: 15%;
-    font-family: Helvetica,;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 15px;
-    letter-spacing:1px;
-  }
+  margin: 15%;
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
 
 .subtitle {
-    font-family: Helvetica,;
-    text-align: center;
-    font-size: 15px;
-    letter-spacing:1px;
-  }
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
 
 .upper {
-    opacity: 0;
-    position: absolute;
-    
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 90%;
-    background: #FFF;
-    color: #151E3F;
-    transition: all 0.3s ease;
-    p {
-      transition: all 0.3s ease;
-      transform: scale(0.1)
-    }
-  }
+  opacity: 0;
+  position: absolute;
 
-  .tile:hover .upper {
-    justify-content: center;
-    align-items: center;
-    opacity: 0.8;
-    width: 90%;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #fff;
+  color: #151e3f;
+  transition: all 0.3s ease;
+  p {
     transition: all 0.3s ease;
-    p {
-      transform: scale(1);
-      transition: all 0.3s ease;
-    }
+    transform: scale(0.1);
   }
+}
 
-  .tile {
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tile:hover .upper {
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  width: 90%;
+  transition: all 0.3s ease;
+  p {
+    transform: scale(1);
+    transition: all 0.3s ease;
   }
-  
-  /* JEROME ALMOGUERA */
+}
+
+.tile {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tao-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.753);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 30;
+  transform: scale(0, 0);
+  transition: transform ease-in-out 400ms;
+}
+
+.tao-lightbox:target {
+  transform: scale(1, 1);
+}
+
+.tao-lightbox-content {
+  width: 45%;
+  position: relative;
+  background: black;
+  padding: 1em;
+}
+
+.lightbox-title {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+
+.lightbox-date {
+  font-weight: lighter;
+}
+
+.close {
+  background: rgb(75, 75, 75);
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: -1em;
+  right: -1em;
+  font-weight: normal;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+}
+
+.close::after {
+  z-index: 66;
+  content: "x";
+  color: white;
+}
+
+/* ACTIVITY */
+
+.act-title {
+  text-align: center;
+}
+
+.act-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  width: 320px;
+  padding: 100px 40px 60px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+}
+
+.act-content .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #5e6775;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.act-content .box:hover:before {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+.act-content .box {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.act-content .box:hover .box-venue {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.act-content .box:hover .box-act {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.act-content .box:hover .box-date {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+  color: #fff;
+}
+
+/* JEROME ALMOGUERA */
